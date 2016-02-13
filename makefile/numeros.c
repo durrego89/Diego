@@ -13,7 +13,7 @@ int main() {
     int m;
     for (i=0; i<10; i++) {
         m=i*2;
-        printf("%d \t %d\n", i,m);
+        printf("%d \t %d \t %d \n", i,m, i*3);
     }
     
     printf("Hello, World!\n");
